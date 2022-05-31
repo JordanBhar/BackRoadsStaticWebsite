@@ -1,8 +1,10 @@
 
-nav{
-    height: 110px;
-}
 
 .navItems{
     padding: 0px 50px 0px 0px;
+}
+
+.yolo{
+    flex-direction: row-reverse;
+    
 }
