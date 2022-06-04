@@ -29,6 +29,7 @@
 .border-purple{
     border-color: rgb(72, 0, 155);
     color: rgb(72, 0, 155);
+    
 }
 
 .nav-link:hover{
@@ -66,7 +67,7 @@ div.dropdown-menu.show{
     background-image: url("/assets/divbg2.jpg") ;
     background-repeat: no-repeat;
     width: 100%;
-    height: 300px;
+    height: fit-content;
 }
 
 .bannerGif{
