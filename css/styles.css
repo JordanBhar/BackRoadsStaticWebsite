@@ -63,6 +63,20 @@ div.dropdown-menu.show{
     }
 }
 
+@media only screen and (max-width: 1000px){
+    .mediaButtonsBottom{
+        position: relative;
+        bottom: 20;
+  
+    }
+}
+
+.mediaButtonsBottom{
+    
+}
+
+
+
 .purpleDiv{
     background-image: url("/assets/divbg2.jpg") ;
     background-repeat: repeat-y;
