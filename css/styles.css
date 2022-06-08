@@ -28,7 +28,7 @@
 
 .border-purple{
     border-color: rgb(72, 0, 155);
-    color: rgb(72, 0, 155);
+    color: #48009b;
     
 }
 
@@ -71,17 +71,26 @@ div.dropdown-menu.show{
     }
 }
 
-.mediaButtonsBottom{
-    
+.bannerDrift{
+    background-image: url(/assets/drift-cars.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
 
 .purpleDiv{
-    background-image: url("/assets/divbg2.jpg") ;
+    background-image: linear-gradient(135deg, #48009b , #7F11AD ) ;
     background-repeat: repeat-y;
     height: auto;
 }
+
+.purpleDiv2{
+    background-image: linear-gradient(135deg, #7F11AD ,  #48009b) ;
+    background-repeat: repeat-y;
+    height: auto;
+}
+
 
 .bannerGif{
     aspect-ratio: 16/9;
