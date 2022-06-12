@@ -83,6 +83,7 @@ div.dropdown-menu.show{
     background-image: linear-gradient(135deg, #48009b , #7F11AD ) ;
     background-repeat: repeat-y;
     height: auto;
+    margin-bottom: 50px;
 }
 
 .purpleDiv2{
@@ -131,5 +132,7 @@ div.dropdown-menu.show{
   }
  
   
-
+footer{
+    background-color: #48009b;
+}
   
