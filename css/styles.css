@@ -6,7 +6,6 @@
 
 .navbar{
     height: 125px;
-    
 }
 
 .nav-link{
@@ -54,29 +53,33 @@ div.dropdown-menu.show{
     text-align: end;
 }
 
+
 @media only screen and (max-width: 1000px){
-    div.dropdown-menu.show{
-        margin: 20px;
-        text-align: start;
+    #bannerText{
+        margin-top: 1em;
+        margin-bottom: 580px;
     }
-}
 
-
-@media only screen and (max-width: 1000px){
-    .navbar{
-        height: auto;
-    }
-}
-
-@media only screen and (max-width: 1000px){
     .mediaButtonsBottom{
         position: relative;
         bottom: 20;
   
     }
+
+    .navbar{
+        height: 70px;
+    }
+
+    .navbar-shrink{
+        height: 3em;
+        width: 3em;
+    }
+
+    div.dropdown-menu.show{
+        margin: 20px;
+        text-align: start;
+    }
 }
-
-
 
 .purpleDiv{
     background-image: linear-gradient(135deg, #48009b , #7F11AD ) ;
@@ -95,8 +98,20 @@ div.dropdown-menu.show{
     font-size: 100px;
 }
 
+.fs-XSSS{
+    font-size: 10px;
+}
+
 /* Carousel base class */
 
+
+#animatedBanner{
+    
+    overflow: hidden;
+    min-height: 100%;
+    min-width: 100%;
+    z-index: -10;
+}
 
 .carousel {
     margin-bottom: 4rem;
